@@ -228,18 +228,6 @@ p {
     opacity: 0;
     transition: 0.7s;
   }
-  .layer:hover {
-    background: rgba(23, 118, 241, 0.7);
-  }
-  .layer:hover h3 {
-    bottom: 75%;
-    opacity: 1;
-  }
-
-  .layer:hover p {
-    bottom: 20%;
-    opacity: 1;
-  }
 }
 .our-services {
   width: 80%;
@@ -248,6 +236,18 @@ p {
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
+}
+.layer:hover {
+  background: rgba(23, 118, 241, 0.7);
+}
+.layer:hover h3 {
+  bottom: 75%;
+  opacity: 1;
+}
+
+.layer:hover p {
+  bottom: 20%;
+  opacity: 1;
 }
 
 .service-col {
