@@ -256,12 +256,14 @@ p {
   transition: 0.7s;
 }
 
-.layer:hover h3 {
+.layer:hover,
+.layer:active h3 {
   bottom: 75%;
   opacity: 1;
 }
 
-.layer:hover p {
+.layer:hover,
+.layer:active p {
   bottom: 20%;
   opacity: 1;
 }
