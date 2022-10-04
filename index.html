@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exceptional Solutions LLC</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img class="image1" src="logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#service">OUR SERVICES</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>We Are Exceptional Solutions LLC</h1>
+        <p>
+          We are here to serve all your technology needs! <br />
+          We strive to make your installs a breeze!
+        </p>
+        <a href="mailto:info.exceptionalsolutionsllc@gmail.com" class="home-btn"
+          >Contact Us</a
+        >
+      </div>
+    </section>
+
+    <!---About Page--->
+    <section class="about-us" id="about">
+      <h1>About Exceptional Solutions</h1>
+      <div class="row">
+        <div class="about-col">
+          <h3>Our Mission</h3>
+          <p>
+            We strive to offer expectional tech support. Our mission is to make
+            installs and troubleshooting a breeze.
+          </p>
+        </div>
+        <div class="about-col">
+          <h3>Who Are We?</h3>
+          <p>
+            My name is Jacob DeVore and I am the owner of Exceptional Solutions
+            LLC! I have over 5 years of customer serivce experice as well as
+            telecommunications and troubleshooting!
+          </p>
+        </div>
+        <div class="about-col">
+          <h3>Where Are We Located?</h3>
+          <p>
+            We currently are offering technical support in Warren, Franklin, and
+            other Surrounding counties!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="our-services" id="service">
+      <h1>Our Services</h1>
+      <p>We Offer A Wide Variety Of Services To Fit Your Needs</p>
+      <div class="row">
+        <div class="service-col">
+          <img src="service1.png" />
+          <div class="layer">
+            <h3>troubleshooting</h3>
+            <p>
+              At Exceptional Solutions we are experts in troubleshooting your
+              tech! Anything from router setups and installs to printer
+              configurations. We have you covered!
+            </p>
+          </div>
+        </div>
+        <div class="service-col">
+          <img src="iphone3.png" />
+          <div class="layer">
+            <h3>Device Tutorials</h3>
+            <p>
+              Exceptional Solutions offers tutorials for Apple and Samsung
+              devices
+            </p>
+          </div>
+        </div>
+        <div class="service-col">
+          <img src="soundsystem.png" />
+          <div class="layer">
+            <h3>Sound Systems</h3>
+            <p>
+              Exceptional Solutions also installs home theater and surrond sound
+              systems
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-us" id="contact">
+      <div class="row">
+        <div class="contact-col">
+          <img src="calendar.png" />
+          <h3>Schedule An Appointment Today!</h3>
+          <p>
+            We are currently taking appointments for the month of October!
+            (Currently after hours and weekend availibility)
+          </p>
+        </div>
+        <div class="contact-col">
+          <img src="email.png" />
+          <h3>Have Any Questions Or Looking To Book An Appointment?</h3>
+          <p>
+            You can reach out to us by email
+            <a
+              class="emailtag"
+              href="mailto:info.exceptionalsolutionsllc@gmail.com"
+              >Here</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>&copy; 2022 Droid Enterprise &middot; All rights reserved</footer>
+
+    <!--------JavaScript for menu ----->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
