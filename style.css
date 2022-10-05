@@ -294,7 +294,7 @@ p {
 }
 
 .contact-col p {
-  font-size: 24px;
+  font-size: 20px;
   color: black;
   font-weight: 500;
 }
@@ -308,4 +308,10 @@ footer {
   font-size: 17px;
   font-weight: 500;
   border: 2px solid black;
+}
+
+@media (max-width: 400px) {
+  div.email-hook {
+    font-size: 15px;
+  }
 }
